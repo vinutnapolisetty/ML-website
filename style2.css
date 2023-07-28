@@ -1,0 +1,259 @@
+.topbar{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+ul li{
+    width: 33.33%;
+}
+
+h1{
+    color: #1d3358;
+    font-size: 40px;
+}
+
+li{
+    display: block;
+}
+
+.profile{
+    text-align: right;
+    margin: 32px 0 0 0;
+    cursor: pointer;
+}
+
+.navbar{
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    background-color: #333;
+    margin-left: 0px;
+    display: flex;
+    margin-right: 0px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 38px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 21px;
+}
+
+.navbar a:hover{
+    background: darkslategray;
+    
+}
+
+.sidebar{
+    height: calc(100% - 157px);
+    width: 260px;
+    position: absolute;
+    top: 170px;
+    background-color: aliceblue;
+    z-index: 1;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    
+}
+
+.sidebar a, .dropdown{
+    padding: 7px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 17.5px;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+    display: block;
+    background: none;
+    border: none;
+    font-weight: 500;
+    color: black;
+    font-family: Helvetica;
+    width: 260px;
+}
+
+.sidebar a:hover, .dropdown:hover{
+    background-color: darkslategray;
+    color: white;
+}
+
+.active{
+    background-color: #1d3358;
+    color: white;
+}
+
+.dropdown-cont{
+    display: none;
+    background-color: #333;
+}
+
+.dropdown-cont a{
+    color: aliceblue;
+}
+
+.dropdown-cont a:hover{
+    background-color: antiquewhite;
+    color: #333;
+}
+
+.content{
+    background-color: #1d3358;
+    margin-left: 252px;
+    padding: 1px -2px;
+    height: 100%;
+    position: absolute;
+}
+
+.main{
+    background-color: #17182b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    color: rgb(225, 167, 225);
+    font-size: 50px;
+    font-family: Lobster;
+    animation: fadeIn 2s;
+    transform: translateY(5px);
+    transition: transform 4s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+
+.next{
+    text-decoration: none;
+    padding:8px 16px;
+    border-radius: 11.5px;
+    background-color: #62eec7;
+    float: right;
+    font-size: 20px;
+    color: black;
+    margin-right: 50px;
+}
+
+.nav-btn a:hover{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.split-image{
+    left:0;
+    height: 380px;
+    width: 50%;
+    position: absolute;
+    top: 160px;
+    overflow-x: hidden;
+    align-content: center;
+}
+.split-cards{
+    right: -147px;
+    height: 280px;
+    width: 40%;
+    position: absolute;
+    top: 205px;
+    overflow-x: hidden;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 200px;
+    font-family: siemenssans,roboto;
+    font-size: 20px;
+    font-style: italic;
+    background-color: #f3f4ef;
+}
+.slide{
+    color: black;
+}
+
+.btn{
+    height: 24px;
+    width: 24px;
+    color: whitesmoke;
+    border-radius: 2px;
+    border: 1px solid rgb(41, 63, 63);
+    background-color: rgb(41, 63, 63);
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background: none;
+    border: 2px solid rgb(41, 63, 63);
+}
+
+.left{
+    float: left;
+    top: 120px;
+    position: absolute;
+    left: 0;
+}
+
+.right{
+    float: right;
+    top: 120px;
+    position: absolute;
+    right: 0;
+}
+
+.pts{
+    margin-top: 500px;
+    text-align: center;
+    color: moccasin;
+}
+
+.ben{
+    list-style-type: disc;
+    left: 0;
+    list-style-position: inside;
+    float: left;
+    align-items: right;
+}
+
+.ben li{
+    color: peachpuff;
+    padding-top: 35px;
+}
+.x{
+    border: 2px solid #62eec7;
+    margin-top: 12px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border-radius: 7px;
+    margin-left: 130px;
+    width: 960px;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+.x:hover{
+    transform: translate3d(-5px, -5px, 0px);
+    transition: transform 0.4s;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.foot{
+    height: 450px;
+    background-color: #1d3358;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning</title>
+    <script src="https://kit.fontawesome.com/b62aab4014.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style2.css">
+    <!-- <link rel="stylesheet" href="getStarted.css"> -->
+</head>
+<body>
+    <div class="topbar">
+        <ul>
+            <li><img src="Images/logo.png" alt="" class="logo" height="80px"></li>
+            <li style="text-align: center;"><h1>Machine Learning</h1></li>
+            <li class="profile"><i class="fa-solid fa-user fa-2xl" style="color: #1d3358;"></i></li>
+        </ul>
+    </div>
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="#">Basics</a>
+        <a href="#">Models</a>
+        <a href="#">Visualization</a>
+        <a href="#">Datasets</a>
+    </div>
+    <div class="sidebar">
+        <button class="dropdown">Get Started</button>
+        <div class="dropdown-cont getstarted">
+            <a href="Def.html" target="_blank">Definition</a>
+            <a href="why.html" target="_blank">Why ML?</a>
+            <a href="pipeline.html" target="_blank">Pipeline</a>
+            <a href="#">ML Methods</a>
+        </div>
+        <button class="dropdown">Data Processing & Wrangling</button>
+        <div class="dropdown-cont dpw">
+            <a href="#">Data Collection</a>
+            <a href="#">Types of Data</a>
+            <a href="#">Data Wrangling</a>
+        </div>
+        <button class="dropdown">Feature Engineering</button>
+        <div class="dropdown-cont fe">
+            <a href="#">Feature Extraction</a>
+            <a href="#">FE on Numeric Data</a>
+            <a href="#">FE on Categorical Data</a>
+            <a href="#">FE on Text Data</a>
+            <a href="#">FE on Temporal Data</a>
+            <a href="#">FE on Image Data</a>
+        </div>
+        <button class="dropdown">Feature Selection & Scaling</button>
+        <div class="dropdown-cont fss">
+            <a href="#">Feature Scaling</a>
+            <a href="#">Feature Selection</a>
+            <a href="#">Dimensionality Reduction</a>
+        </div>
+        <a href="#">Visualization</a>
+        <button class="dropdown">Building Models</button>
+        <div class="dropdown-cont bm">
+            <a href="#">Regression Models</a>
+            <a href="#">Classification Models</a>
+            <a href="#">Clustering Models</a>
+        </div>
+        <a href="#">Model Evaluation</a>
+        <a href="#">Model Deployment</a>
+        <a href="#">Case Study</a>
+    </div>
+    <div class="content" name="right">
+        <div class="cont1">
+            <div>
+                <center><h1 class="heading">Getting Started</h1></center>
+            </div>
+            <div class="nav-btn">
+                <a href="Def.html" class="next">Next</a>
+            </div>
+            <div class="split-image">
+                <img src="Images/aimldl.png" alt="">
+            </div>
+            <div class="split-cards">
+                <div class="slide">
+                    <h1>Artificial Intelligence</h1>
+                    <p style="font-size:18px;">Artificial intelligence (AI), also known as machine <br> intelligence, is a branch of computer science that focuses <br> on building and managing technology that can learn to <br> autonomously make decisions and carry out actions on behalf <br> of a human being.</p>
+                    <p>AI is superset of ML and DL.</p>
+                </div>
+                <div class="slide">
+                    <h1>Machine Learning</h1>
+                    <p>Machine learning is a branch of artificial intelligence <br> and computer science which focuses on the use of <br> data and algorithms to imitate the way that humans <br> learn, gradually improving its accuracy.</p>
+                    <p>ML is subset of AI and superset of DL.</p>
+                </div>
+                <div class="slide">
+                    <h1>Deep Learning</h1>
+                    <p>Deep learning is a subset of machine learning, which <br> is essentially a neural network with three or more <br> layers. These neural networks attempt to simulate <br> the behavior of the human brain allowing it to <q>learn</q> <br> from large amounts of data.</p>
+                    <p>DL is subset of ML and AI.</p>
+                </div>
+                <button class="btn left" onClick="move(-1)">&#10094;</button>
+                <button class="btn right" onClick="move(1)">&#10095;</button>
+            </div>
+            <div class="foot">
+                <h1 class="pts">Benefits</h1>
+                <ul class="ben">
+                    <li class="x">Lack of sufficient human expertise in a domain (e.g., simulating navigations in unknown territories or even spatial planets).</li>
+                    <li class="x">Scenarios and behavior can keep changing over time (e.g., availability of infrastructure in an organization, network connectivity etc).</li>
+                    <li class="x">Addressing domain specific problems at scale with huge volumes of data with too many complex conditions and constraints.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+    <!-- <script src="getStarted.js"></script> -->
+</body>
+</html>

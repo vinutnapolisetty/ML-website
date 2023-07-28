@@ -1,0 +1,163 @@
+.entire{
+    background-color: #1d3358;
+    top: -36px;
+    position: absolute;
+    left: 0;
+    height: 1400px;
+}
+
+.logo{
+    float: left;
+    top: 10px;
+    position: relative;
+}
+
+.head{
+    top: 15px;
+    position: relative;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    float: right;
+    top: -46px;
+    position: relative;
+}
+
+.btn{
+    text-decoration: none;
+    padding:8px 16px;
+    border-radius: 11.5px;
+    background-color: #62eec7;
+    font-size: 20px;
+    color: black;
+    margin-right: 50px;
+    text-align: center;
+    width: 86px;
+}
+
+.heading{
+    color: #066163;
+    font-size: 25px;
+    font-family: Lobster;
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+    height: 82px;
+}
+
+.next{
+    float:right;
+    margin-right: 3px;
+}
+
+.prev{
+    float: left;
+    margin-left: 3px;
+}
+
+.nav-btn{
+    top: 10px;
+    position: relative;
+}
+
+.nav-btn a:hover{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.head{
+    color: #a86464;
+    font-size: 35px;
+    background-color: #f6e7d8;
+}
+
+.cont{
+    content: "";
+    clear: both;
+    display: table;
+    border: 5px solid #7a9d54;
+    padding: 24px;
+    margin: 38px;
+    top: 47px;
+    position: relative;
+    border-radius: 11.5px;
+    background-color: #f6e7d8;
+    z-index: 1;
+}
+
+.tp{
+    float: right;
+    border-radius: 11.5px;
+}
+
+.matter{
+    color: #525e75;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #f6e7d8;
+}
+
+.matter li{
+    background-color: #f6e7d8;
+}
+
+.why{
+    display: table;
+    border: 5px solid #8AAAE5;
+    padding: 24px;
+    margin: 38px;
+    top: 47px;
+    position: relative;
+    border-radius: 11.5px;
+    background-color: #fff;
+}
+
+.why-head{
+    font-size: 35px;
+    color:teal;
+}
+
+.why-matter{
+    color:#234E70;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.head1{
+    color: rgb(216, 87, 130);
+    font-size: 35px;
+    background-color: #ADD8E6;
+}
+
+.cont1{
+
+    display: table;
+    border: 5px solid #FF2171;
+    padding: 24px;
+    margin: 38px;
+    top: 47px;
+    position: relative;
+    border-radius: 11.5px;
+    background-color: #ADD8E6;
+}
+
+.ml{
+    float: right;
+    border-radius: 11.5px;
+}
+
+.matter1{
+    color: #1D5B79;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #ADD8E6;
+}
+
+.matter1 li{
+    background-color: #ADD8E6;
+}

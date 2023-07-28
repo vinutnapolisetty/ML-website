@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="heading">
+            <h1>Machine Learning</h1>
+        </div>
+        <div class="registration">
+            <div class="login-header">
+                <p class="login active-link" onclick="opentab('login')">Login</p>
+                <p class="login" onclick="opentab('signup')">Signup</p>
+            </div>
+            <div class="login-contents active-tab" id="login">
+                <form action="">
+                    <input type="email" placeholder="Enter your email-id"><br><br>
+                    <input type="password" placeholder="Enter your Password"><br><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="login-contents" id="signup">
+                <form action="">
+                    <input type="text" placeholder="Full Name"><br><br>
+                    <input type="email" placeholder="Email"><br><br>
+                    <input type="tel" placeholder="Phone Number"><br><br>
+                    <input type="password" placeholder="Password"><br><br>
+                    <input type="password" placeholder="Confirm Password"><br><br>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
